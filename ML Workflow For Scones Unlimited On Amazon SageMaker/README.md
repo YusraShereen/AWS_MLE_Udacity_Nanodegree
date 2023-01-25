@@ -17,7 +17,6 @@ as a JSON Object.
 3. The [Filter Results Lambda Function](lambda%20functions/filter_Results.py) takes the inference data from 2 and filters only the images that meet the defined threshold.  
 
 ## Step Functions Graph
-![Step Functions Graph](img/step%20function.png "Step Functions") ![Step Functions Graph Working](images/stepfunctions_graph_working.png "Step Functions - After Execution")
-
+![Step Functions Graph](project_files/img/step%20function.PNG "Step Functions") 
 ## Step Function Output
-![Step Function Output](img/output_step_function.png)
+![Step Function Output](project_files/img/output_step_function.png)
