@@ -10,11 +10,11 @@ Python 3.8
 scikit-learn latest
 
 
-1. The [Serialize Image Data Lambda Function](lambda%20functions/serializedImage.py) takes the address of an image hosted in S3, then serializes and returns a JSON
+1. The [Serialize Image Data Lambda Function](project_files/lambda%20functions/serializedImage.py) takes the address of an image hosted in S3, then serializes and returns a JSON
 object.
-2. The [Infer Serialized Image Data](lambda%20functions/infer_serializedImage.py) takes the JSON object returned from 1 and passes it to an end point and collectd the result
+2. The [Infer Serialized Image Data](project_files/lambda%20functions/infer_serializedImage.py) takes the JSON object returned from 1 and passes it to an end point and collectd the result
 as a JSON Object.
-3. The [Filter Results Lambda Function](lambda%20functions/filter_Results.py) takes the inference data from 2 and filters only the images that meet the defined threshold.  
+3. The [Filter Results Lambda Function](project_files/lambda%20functions/filter_Results.py) takes the inference data from 2 and filters only the images that meet the defined threshold.  
 
 ## Step Functions Graph
 ![Step Functions Graph](project_files/img/step%20function.PNG "Step Functions") 
