@@ -6,3 +6,8 @@ Predicting demand not only helps businesses prepare for spikes in their services
 
 In the end, we submitted several entries to the competition and achieved a rank within Kaggle.
 A report of findings is also created to share publicly on Kaggle to showcase work.
+
+## 2. Deploy and monitor a ML workflow for Scones Unlimited
+The motive of the project is to build a Machine Learning Model that performs image classification through ML workflows using Amazon's Sage Maker. The Step Functions 
+linked with the lambda scripts are used to automate various tasks of Machine Learning process from Data Preparation, Model Creation, Model Deployment and Inference.
+
