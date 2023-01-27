@@ -6,7 +6,7 @@ import base64
 import boto3
 
 # Name of the deployed model
-ENDPOINT = "image-classification-2023-01-25-23-13-30-476"
+ENDPOINT = "image-classification-2023-01-27-17-48-15-033"
 runtime= boto3.client('runtime.sagemaker')
 
 def lambda_handler(event, context):
