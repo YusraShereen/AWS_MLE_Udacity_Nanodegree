@@ -18,5 +18,9 @@ as a JSON Object.
 
 ## Step Functions Graph
 ![Step Functions Graph](project_files/img/step%20function.PNG "Step Functions") 
-## Step Function Output
-![Step Function Output](project_files/img/output_step_function.png)
+## Step Function Successful Output
+![Step Function Successful Output](project_files/img/output_step_function.png)
+## Step Function Successful Execution
+![Step Function Successful Execution](project_files/img/successful_execution.png)
+## Step Function Failed Output
+![Step Function Failed Output](project_files/img/failed_output.png)
